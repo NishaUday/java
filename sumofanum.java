@@ -1,16 +1,19 @@
+
 import java.util.Scanner;
-public class g6 {
+
+public class g{
 	public static void main(String a[])
 	{
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int i=0,s=0;
-		while(i<n)
-		{
-			s=s+i;
-			i++;
-		}
-		System.out.print(s);
+	
+	int s=0,i;
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+	for(i=0;i<n;i++)
+	{
+		s=s+i;
+	}
+	System.out.print(s);
 	}
 
 }
+
